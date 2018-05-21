@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Geo JSON</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--D3 cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+  <!-- leaflet timeline cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.0/dist/leaflet.timeline.min.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    h2,p.double {
+      outline-style: double;}
+  </style>
+</head>
+<body>
+  <div  class="jumbotron">
+    <div style="text-align: center;" class="container">
+        <h2 style="padding: 15px;">Earthquakes Report</h2>
+        <p>Graphs of all Earthquakes Over The last 7 Days</p>
+    </div>
+</div>
+<a style="font-size: 16px; font-weight: bolder;" href="index.html">Go Back</a>
+<div id="map"></div> 
+  <!-- Our JS -->
+  <script type="text/javascript" src="timeline.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* setbody, and html to 100% of the screen size */
+body,
+html {
+  height: 100%;
+}
+.legend {
+  line-height: 18px;
+  color: #555;
+  padding: 5px;
+  background-color: white
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+#map {
+  margin: 1em auto;
+  height:70%;
+}   
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url("https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4MS8zMjIvb3JpZ2luYWwvcm9hZC1jcmFjay1lYXJ0aHF1YWtlLmpwZw==");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:black;
+}
