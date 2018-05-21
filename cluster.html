@@ -23,12 +23,10 @@
   <!-- leaflet timeline cdn -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.0/dist/leaflet.timeline.min.js"></script>
 
-  <!-- heatmap cdn -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="leaflet-heat.js"></script>
+  <!-- Marker Cluster JS & CSS -->
+  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
 
 
   <!-- Our CSS -->
@@ -47,6 +45,7 @@
         <p>Graphs of all Earthquakes Over The last 7 Days</p>
     </div>
 </div>
+
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -78,14 +77,14 @@
         <div style="text-align: center">
             <h4>Earthquakes over the Last 7 Days</h4>
             <hr>
-            <p>The map below shows the earthquake data for the past week (7 dats).  Marker Color and size are related 
-                to the magnitude of the earthquake.  Click on each markers more information (location, date, magnitude).  
+            <p>The map below shows the earthquake data for the past week (7 dats).  The number in the circle markers show the amount of earthquakes over the past week near this area, when you click on the marker 
+              the map will zoom in and it tells where the earthquake is located. Click on the blue marker for more detailed information (location, date, magnitude) 
             </p>
         </div>
     </div>
 </div> 
-<div id="map"></div>   
+<div id="map"></div> 
   <!-- Our JS -->
-  <script type="text/javascript" src="logic.js"></script>
+  <script type="text/javascript" src="cluster.js"></script>
 </body>
 </html>
