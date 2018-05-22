@@ -22,7 +22,7 @@ d3.json(earthquake_url, function(data){
     onEachFeature: function (feature, layer){
         layer.bindPopup(`${feature.properties.place} <hr> Magnitude: ${feature.properties.mag} <br> Date: ${new Date(feature.properties.time)}`)
     }
-    });
+  });
 
     d3.json(boundary_url, function(data){
         var faultFeatures = data.features
