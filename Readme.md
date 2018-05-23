@@ -14,6 +14,8 @@
 - Fault Line data: "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"
 - Timeline plugin: https://github.com/skeate/Leaflet.timeline
 - Cluster plugin: https://github.com/Leaflet/Leaflet.markercluster#using-the-plugin 
+
 <img src="map1.png">
 <img src="timeline.png">
 <img src = "cluster.png">
+<img src = "heat.png">
