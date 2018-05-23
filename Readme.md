@@ -17,5 +17,3 @@
 <img src="map1.png">
 <img src="timeline.png">
 <img src = "cluster.png">
-### Github Page Link:
-https://weekysui.github.io/earthquake_leaflet/
