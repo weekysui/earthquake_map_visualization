@@ -10,7 +10,7 @@ var tiles = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/ti
 "access_token=pk.eyJ1Ijoid2Vpc3VpIiwiYSI6ImNqaDFhaHF1OTAwdGEyeXFoeDAyamczZW0ifQ.TAcEPXoBGJM1lS1eL7teYw").addTo(myMap);
 
 // earthquake data url
-var earthquake_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+var earthquake_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson";
 
 d3.json(earthquake_url,function(data){
     // console.log(data);
@@ -23,7 +23,7 @@ d3.json(earthquake_url,function(data){
         }; 
     }; 
     var heat = L.heatLayer(heatArray, {
-        radius:10,
+        radius:20,
         minOpacity:0.8  
     }).addTo(myMap); 
 });

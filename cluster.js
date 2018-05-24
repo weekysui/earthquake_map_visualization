@@ -11,7 +11,7 @@ L.tileLayer(
 ).addTo(myMap);
 
 // earthquake data url
-var earthquake_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+var earthquake_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson";
 
 d3.json(earthquake_url,function(data){
     // console.log(data);
