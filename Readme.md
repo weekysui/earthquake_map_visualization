@@ -9,6 +9,9 @@
 ### Step 2: Time Keeps on Ticking
 - use timeline map plugin to visualize how many earthquakes happen over the course of a week. 
 
+### Step 3: Cluster marker map and heat map 
+- use cluster marker map and heat map to visualize earthquakes with magnitude over 4.5 over the past 7 days. 
+
 ### Sources Used:
 - Earthquake data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - Fault Line data: "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"
@@ -17,3 +20,4 @@
 <img src="map1.png">
 <img src="timeline.png">
 <img src = "cluster.png">
+<img src = "heat.png">
