@@ -1,4 +1,4 @@
-# Unit 17 | Assignment - Visualizing Data with Leaflet
+# Title: Earthquake visualization
 
 ## Background
 
@@ -22,4 +22,4 @@
 <img src = "cluster.png">
 <img src = "heat.png">
 
-Github Webpage Link: https://weekysui.github.io/earthquake_leaflet/
+Github Webpage Link: https://weekysui.github.io/earthquake_map_visualization/
